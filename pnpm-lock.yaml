@@ -18,8 +18,8 @@ importers:
   apps/api:
     dependencies:
       '@prisma/client':
-        specifier: ^5.18.0
-        version: 5.20.0(prisma@5.20.0)
+        specifier: ^6.1.0
+        version: 6.1.0(prisma@5.20.0)
       bcryptjs:
         specifier: ^2.4.3
         version: 2.4.3
@@ -1597,9 +1597,9 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@prisma/client@5.20.0(prisma@5.20.0):
-    resolution: {integrity: sha512-CLv55ZuMuUawMsxoqxGtLT3bEZoa2W8L3Qnp6rDIFWy+ZBrUcOFKdoeGPSnbBqxc3SkdxJrF+D1veN/WNynZYA==}
-    engines: {node: '>=16.13'}
+  /@prisma/client@6.1.0(prisma@5.20.0):
+    resolution: {integrity: sha512-AbQYc5+EJKm1Ydfq3KxwcGiy7wIbm4/QbjCKWWoNROtvy7d6a3gmAGkKjK0iUCzh+rHV8xDhD5Cge8ke/kiy5Q==}
+    engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
       prisma: '*'
@@ -1990,6 +1990,7 @@ packages:
 
   /@swagger-api/apidom-ns-json-schema-draft-4@1.0.0-alpha.9:
     resolution: {integrity: sha512-OfX4UBb08C0xD5+F80dQAM2yt5lXxcURWkVEeCwxz7i23BB3nNEbnZXNV91Qo9eaJflPh8dO9iiHQxvfw5IgSg==}
+    requiresBuild: true
     dependencies:
       '@babel/runtime-corejs3': 7.25.7
       '@swagger-api/apidom-ast': 1.0.0-alpha.9
